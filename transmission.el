@@ -4,18 +4,19 @@
 
 (defgroup transmission nil "transmission.el options")
 
-(defcustom tr-base-url "http://127.0.0.1:9091/transmission/rpc"
-  "transmission base url"
-  :type 'string
-  :group 'transmission)
-(defcustom transmission-username ""
-  "transmission user name"
-  :type 'string
-  :group 'transmission)
-(defcustom transmission-password ""
-  "transmission password"
-  :type 'string
-  :group 'transmission)
+;; (defcustom tr-base-url "http://127.0.0.1:9091/transmission/rpc"
+;;   "transmission base url"
+;;   :type 'string
+;;   :group 'transmission)
+;; (defcustom transmission-username ""
+;;   "transmission user name"
+;;   :type 'string
+;;   :group 'transmission)
+;; (defcustom transmission-password ""
+;;   "transmission password"
+;;   :type 'string
+;;   :group 'transmission)
+
 
 (defcustom transmission-session nil
   "transmission session list"
