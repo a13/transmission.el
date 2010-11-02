@@ -17,7 +17,6 @@
 ;;   :type 'string
 ;;   :group 'transmission)
 
-
 (defcustom transmission-session nil
   "transmission session list"
   :type '(repeat
